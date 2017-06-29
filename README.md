@@ -53,7 +53,7 @@ c83c70580795        dockermoosefscluster_chunkserver3   "/home/start-chunk..."  
 You can attach to the client node (press "Enter" twice):
 
 ```
-docker container attach client  #press "Enter" key twice
+docker container attach mfs_client  #press "Enter" key twice
 ```
 
 Now MooseFS filesystem is mounted as `/mnt/mfs`. If everything is ok you should see our welcome message with:
